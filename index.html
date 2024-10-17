@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Suraj Narayanan Kutty</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Suraj Narayanan Kutty</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile--.jpeg" alt="Suraj Narayanan Kutty profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Suraj Narayanan Kutty</h1>
+        <p class="section__text__p2">Data Analyst</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Suraj Narayanan Kutty.pdf')"
+          >
+            Download CV
+          </button>
+         
+          
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/surajnarayanan0501/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Neko0530'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>2+ years <br />Freelance</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>M.Sc. Masters Degree<br />B.Sc. Bachelors Degree</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I am a skilled Data Analyst with expertise in NLP, data mining, and machine learning, backed by experience in internships and freelance projects across diverse sectors such as healthcare, mental health, and automotive. Proficient in Python, SQL, and data visualization, I specialize in creating interactive dashboards that effectively communicate data-driven insights. My strong foundation in data analysis, coupled with project management and academic research experience, enables me to identify key trends and translate them into actionable strategies that drive informed decision-making.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt=""
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Data Science and Analytics</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Data Visualisation</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Statistical Analysis</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Tableau & Power BI</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Azure Cloud</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Machine Learning & AI</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Machine Learning Algorithms</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Deep Learning Frameworks</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Natural Language Processing (NLP)</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>GenAI</h3>
+                  <p>Intermediate</p>
+
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt=""
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+<section id="projects">
+  <p class="section__text__p1">Browse My Recent</p>
+  <h1 class="title">Projects</h1>
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <!-- Bio-medical Text Mining Project -->
+      <div class="details-container color-container">
+        <div class="article-container">
+          <!-- Image removed -->
+        </div>
+        <h2 class="experience-sub-title project-title">Bio-medical Text Mining</h2>
+        <p>This project involves mining and analyzing biomedical literature to extract meaningful patterns and insights. Using techniques like natural language processing (NLP), the goal is to find associations between biomedical entities such as diseases, genes, and drugs.</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/Neko0530/Biomedical-text-mining'"
+          >
+            Github
+          </button>
+        </div>
+      </div>
+
+      <!-- Twitter Sentiment Analysis Project -->
+      <div class="details-container color-container">
+        <div class="article-container">
+          <!-- Image removed -->
+        </div>
+        <h2 class="experience-sub-title project-title">Twitter Sentiment Analysis</h2>
+        <p>This project focuses on analyzing tweets to gauge public sentiment on various topics. It uses machine learning algorithms to classify tweets as positive, negative, or neutral, helping to track social media trends.</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/Neko0530/Twitter-Sentimental-'"
+          >
+            Github
+          </button>
+        </div>
+      </div>
+
+      <!-- Sales Dashboard Project -->
+      <div class="details-container color-container">
+        <div class="article-container">
+          <!-- Image removed -->
+        </div>
+        <h2 class="experience-sub-title project-title">Sales Dashboard</h2>
+        <p>A comprehensive sales dashboard that visualizes key performance indicators (KPIs) for business decisions. The dashboard integrates sales data, providing insights into customer behavior, revenue trends, and product performance.</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/Neko0530/Us-Sales-'"
+          >
+            Github
+          </button>
+        </div>
+      </div>
+      <!-- Customer Churn Prediction Project -->
+      <div class="details-container color-container">
+        <div class="article-container">
+          <!-- Image removed -->
+        </div>
+        <h2 class="experience-sub-title project-title">Customer Churn Prediction</h2>
+        <p>This project involves predicting customer churn for a financial institution using historical data. By applying machine learning models such as logistic regression and random forests, the project helps identify customers at risk of leaving the company.</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/Neko0530/Aframe-Technology'"
+          >
+            Github
+          </button>
+        </div>
+      </div>
+
+      <!-- Movie Genre Prediction Project -->
+      <div class="details-container color-container">
+        <div class="article-container">
+          <!-- Image removed -->
+        </div>
+        <h2 class="experience-sub-title project-title">Movie Genre Prediction</h2>
+        <p>This project utilizes natural language processing (NLP) techniques to predict the genre of a movie based on its plot summary. By implementing models like Naive Bayes and support vector machines, the project aims to classify movies into genres accurately.</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/Neko0530/Aframe-Technology'"
+          >
+            Github
+          </button>
+        </div>
+      </div>
+
+    </div>
+    </div>
+    </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt=""
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">SurajNarayananKutty@outlook.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/surajnarayanan0501/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Suraj Narayanan Kutty. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
